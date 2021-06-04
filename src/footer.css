@@ -1,0 +1,26 @@
+.footer a img {
+
+    width: 2rem;
+    display: flex;
+    padding: 0 50%;
+    margin: 2px;
+    
+}
+
+.footer {
+
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 11%;
+}
+
+.footer p {
+
+    font-weight: bold;
+    margin:5px;
+    padding: 0 5%;
+    
+}

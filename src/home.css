@@ -1,0 +1,81 @@
+.portada__home {
+
+    background-image: url('images/portada.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position-y: -400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+
+.portada__home h1 {
+
+    font-size: 4rem;
+    text-shadow: 5px 6px black;
+}
+
+.portada__frase {
+
+background-color: #FDC830;
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+background: linear-gradient(to right, #F37335, #FDC830);
+color: white;
+display: flex;
+justify-content: center;
+padding: 10px;
+
+}
+
+.contenido__portada {
+
+    padding: 4px 20%;
+    margin-top: 2rem;
+}
+
+.contenido__titulo h2{
+
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+.contenido__titulo {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.contenido__cluster {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contenido__cluster div {
+
+    display: flex;
+    flex-grow: 1;
+    width: 31%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    margin: 1%;
+
+}
+
+.contenido__cluster div a {
+
+    color: white;
+    text-decoration: none;
+
+}
